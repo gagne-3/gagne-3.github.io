@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Portfolio | 9th Grade </title>
+		<meta name="description" content=" *Enter Page Content* Antoine Gagne" />
+		<meta name="keywords" content="*Enter Page Content*, STEM, Antoine, Gagne, Coding, DRSS, Dayton STEM" />
+		<meta name="author" content="Antoine Gagne" />
+		<meta name="copyright" content="2018, Antoine Gagne, Inc." />
+		<meta name="rating" content="general" />
+		
+		<link href="SiteStyle/global.css" rel="stylesheet" />
+	</head>
+	<body>
+		<a id="top"></a>
+		
+		<div id="MiniHeader">
+			<ul class="Navigationul2">
+				<li class="Navigationli2"><a class="Navigationli2" onclick="hideNavBar()"> Uncollapse Banner </a></li>
+			</ul>
+			
+			<div id="banner2">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3>
+			</div>
+			
+		</div>
+		
+		<header id="header">
+			<div id="banner">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3>
+			</div>
+	
+			<nav>
+			<ul class="Navigationul">
+				<li class="Navigationli"><a class="Navigationli" href="../index.html">Home</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../about.html">Experiences</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../qualities.html">5 Qualitites</a></li>
+				<!--<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Projects </a></li></br> -->
+					<div class="dropdown">
+						<button class="dropbtn">Projects  </button>
+							<div class="dropdown-content">
+								<a href="../projects.html">Projects</a>
+								<a href="../8GradePages/8grade.html">8th Grade</a>
+								<a href="../9GradePages/9grade.html">9th Grade</a>
+								<a href="../10GradePages/10grade.html">10th Grade</a>
+						</div>
+					</div> 
+				<li class="Navigationli"><a class="Navigationli" href="../coding.html">Coding Progression</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../contact.html">Contact</a></li>
+				<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Collapse Banner</a></li>
+			</ul>
+			</nav>
+		</header>
+		
+		<div class="Front_Content">
+			
+			<h1> Portfolio | 9th Grade Projects </h1>
+			<h3> Here, you can find all of the projects have done in the 9th grade. </h3>
+			
+			<div class="center">
+				<img src="PagePhotos/9.png" style="width:50%" Class="Image1">
+			</div>
+			
+		</div>
+			
+		<div class="Main_Content">
+
+			<h3> Transitional Essay </h3>
+			
+			<p> 9th Grade has been a big change for me this year. I learned many skills that will be important later on in my life. Please click this link to visit the page.
+			<a class="ProjectLink" href="transessay.html">Visit The Page</a> </p> </br>
+			
+			<h3> Transitional Essay Subpages </h3>
+			
+			<p> For quick access to the subpages for my Transitional Essay, click the links below. </p></br>
+			
+			<a class="ProjectLink" href="p1.html">First Paragraph: How have a changed as a student from August to today?</a></br>
+			<a class="ProjectLink" href="p2.html">What Projects have you excelled in this year?</a></br>
+			<a class="ProjectLink" href="p3.html">What Projects have you struggled in this year?</a></br>
+			<a class="ProjectLink" href="p4.html">What Projects have you grown in this year?</a></br>
+			<a class="ProjectLink" href="p5.html">How are you ready for 10th grade?</a></br>
+			
+		</div>
+		
+		<footer> 
+			<div class="center"><a class="top" href="#top">Return to Top</a></div>
+			<div class="center"><p>&copy;2019. Antoine Gagne. All Rights Reserved.</p></div>
+			<div class="center"><p><i>"You miss 100% of the shots you don't take - Wayne Gretzky" - Michael Scott</i></p></div>
+		</footer>
+		
+		<script>
+			/* hide navbar */
+			
+			function hideNavBar() {
+				var x = document.getElementById("header");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+		
+	</body>
+	
+</html>

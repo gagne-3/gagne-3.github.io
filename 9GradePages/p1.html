@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Portfolio | Paragraph 1 </title>
+		<meta name="description" content=" *Project Name* Project Antoine Gagne" />
+		<meta name="keywords" content="*Project Name*, STEM, Antoine, Gagne, Coding, DRSS, Dayton STEM" />
+		<meta name="author" content="Antoine Gagne" />
+		<meta name="copyright" content="2018, Antoine Gagne, Inc." />
+		<meta name="rating" content="general" />
+		
+		<link href="SiteStyle/global.css" rel="stylesheet" />
+	</head>
+	<body>
+		<a id="top"></a>
+		
+		<div id="MiniHeader">
+			<ul class="Navigationul2">
+				<li class="Navigationli2"><a class="Navigationli2" onclick="hideNavBar()"> Uncollapse Banner </a></li>
+			</ul>
+			
+			<div id="banner2">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3> 
+			</div>
+			
+		</div>
+		
+		<header id="header">
+			<div id="banner">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3>
+			</div>
+	
+			<nav>
+			<ul class="Navigationul">
+				<li class="Navigationli"><a class="Navigationli" href="../index.html">Home</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../about.html">Experiences</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../qualities.html">5 Qualitites</a></li>
+				<!--<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Projects </a></li></br> -->
+					<div class="dropdown">
+						<button class="dropbtn">Projects  </button>
+							<div class="dropdown-content">
+								<a href="../projects.html">Projects</a>
+								<a href="../8GradePages/8grade.html">8th Grade</a>
+								<a href="../9GradePages/9grade.html">9th Grade</a>
+								<a href="../10GradePages/10grade.html">10th Grade</a>
+						</div>
+					</div> 
+				<li class="Navigationli"><a class="Navigationli" href="../coding.html">Coding Progression</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../contact.html">Contact</a></li>
+				<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Collapse Banner</a></li>
+			</ul>
+			</nav>
+		</header>
+		
+		<div class="Front_Content">
+			
+			<h1> Portfolio | First Paragraph </h1>
+			<h3> How have you changed as a student from August to today.</h3>
+			
+			<div class="center">
+				<img src="PagePhotos/9.png" style="width:50%" Class="Image1">
+			</div>
+			
+		</div>
+			
+		<div class="Main_Content">
+		
+			<h3> How have I changed as a student from August to today. </h3>
+			
+			<a href="transessay.html">Back</a></br>
+			<a href="p2.html">Forward</a></br>
+			
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In August of this year, I thought that 9th grade was going to be very difficult. Everyone had told me that it gets a lot more difficult in the 9th grade, but that was not my experience. While it is a bit more difficult than 8th grade, I feel that I adapted to the conditions of 9th grade. At the beginning, it was pretty easy, but I knew that it would get harder, and it did, but y changing the way I did work, I was able to adapt to the situation. One of the things I did to adapt to 9th grade was keeping an agenda. In 8th grade, the homework was minimal, and I was able to remember it, but in 9th grade, we had homework almost every night. I used an old notebook that I had to keep track of my homework and check off the things I completed. This has definitely made me more efficient in my homework since August. I also learned that I could apply this to things other than my schoolwork. I decided to use another notebook to write down things I need to do. I think this behavior has definitely helped for high school, and for later on in my life. I believe that me keeping an agenda and other changes I have made this year have prepared me for the rigors of 10th grade. </br></br>
+			</p>
+			
+		</div>
+		
+		<footer>
+			<div class="center"><a class="top" href="#top">Return to Top</a></div>
+			<div class="center"><p>&copy;2019. Antoine Gagne. All Rights Reserved.</p></div>
+			<div class="center"><p><i>"It's A lot easier to keep bad habits than to break them" -Antoine Gagne</i></p></div>
+			
+		</footer>
+		
+		<script>
+			/* hide navbar */
+			
+			function hideNavBar() {
+				var x = document.getElementById("header");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+		
+	</body>
+	
+</html>

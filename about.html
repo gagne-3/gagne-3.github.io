@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Portfolio | About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-user,.fa-android {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Experiences</a>
+    <a href="qualities.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">5 Qualities</a>
+    <div class="w3-dropdown-hover">
+		<button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</button>
+		<div class="w3-dropdown-content w3-bar-block w3-border">
+			<a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+			<a href="10GradePages/10grade.html" class="w3-bar-item w3-button">10th Grade</a>
+			<a href="9GradePages/9grade.html" class="w3-bar-item w3-button">9th Grade</a>
+			<a href="8GradePages/8grade.html" class="w3-bar-item w3-button">8th Grade</a>
+		</div>
+	</div>
+    <a href="coding.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Coding Progression</a>
+	<a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">Experiences</a>
+    <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">EXPERIENCES</h1>
+  <p class="w3-xlarge">Here's Some Cool Info About Me</p>
+  </header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Me</h1>
+      <h5 class="w3-padding-32">Hello, my name is Antoine Gagne, and welcome to my portfolio. I am currently a 10th grader at the Dayton Regional STEM School. STEM means Science Technology Engineering and Math, and here at the Dayton Regional STEM School, we focus on Project Based Learning. I really enjoy the Dayton Regional STEM School because of the focus on Project Based Learning. One project we have done through the years here at the Dayton Regional STEM School is the digital portfolio, which you are reading right now. On this portfolio, you will find a description of all the projects we do throughout the years. When I finish schooling, I intend to become either an engineer or a pilot.</h5>
+		<div class="w3-center">
+			<img src="PagePhotos/taiwan.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+			<p>An Image of Me in Taiwan</p>
+		</div>
+	</div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-user w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-android w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Experiences</h1>
+      <h5 class="w3-padding-32">The main extra-curricular activity I do is Robotics. I am part of the DRSS Varsity Robotics Team. The Robotics Competition we participate in is FIRST Tech Challenge. FIRST is also a PBL Based organization that encourages innovative design. I have been doing Robotics for 3 years, and I currently do Engineering, Programming, and Computer Aided Design. Here are some pictures of my robot from last year. The second image is a CAD model which I helped make. The main portion of the robot I worked on was the white shielding you see attached to the robot in both images. This required the use of our laser cutter. Being on the team, I am experienced in using high tech manufacturing such as 3D-Printing, and laser cutting.</h5>
+	  <div class="w3-center">
+			<img src="PagePhotos/FTC.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+			<p>Our FTC Team's Robot</p>
+		</div>
+		<div class="w3-center">
+			<img src="PagePhotos/robotcad2.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+			<p>A CAD Rendering of our team's robot</p>
+		</div>
+	  <h5 class="w3-padding-32">Another extra-curricular activity that I do outside of school is TSA (Technology Student Association). TSA is similar to science Olympiad, with many types of competitions. The main competition I have worked on this year was the Co2 dragster. This competition involved designing a Co2 powered dragster that we would compete with. We have yet to see the success of this design, as the competition has been canceled.</h5>
+		<div class="w3-center">
+			<img src="PagePhotos/DragsterAssembly.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+			<p>A CAD Rendering of our Dragster Design</p>
+		</div>
+	 </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: "Don't Drink Crude Oil, Or Else You Will DIE!" - Sam O'Nella</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p><p>&copy;2020. Antoine Gagne. All Rights Reserved.</p></p>
+</footer>
+
+<script src="Scripts/scripts.js"></script>
+
+</body>
+</html>

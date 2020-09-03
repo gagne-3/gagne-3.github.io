@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Portfolio | Board Game Project </title>
+		<meta name="description" content=" *Project Name* Project Antoine Gagne" />
+		<meta name="keywords" content="*Project Name*, STEM, Antoine, Gagne, Coding, DRSS, Dayton STEM" />
+		<meta name="author" content="Antoine Gagne" />
+		<meta name="copyright" content="2018, Antoine Gagne, Inc." />
+		<meta name="rating" content="general" />
+		
+		<link href="SiteStyle/global.css" rel="stylesheet" />
+	</head>
+	<body>
+		<a id="top"></a>
+		
+		<div id="MiniHeader">
+			<ul class="Navigationul2">
+				<li class="Navigationli2"><a class="Navigationli2" onclick="hideNavBar()"> Uncollapse Banner </a></li>
+			</ul>
+			
+			<div id="banner2">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3> 
+			</div>
+			
+		</div>
+		
+		<header id="header">
+			<div id="banner">
+				<h2 style="color: white">Portfolio | Antoine Gagne</h2>
+				<h3 style="color: white">Welcome To My Portfolio Website</h3>
+			</div>
+	
+			<nav>
+			<ul class="Navigationul">
+				<li class="Navigationli"><a class="Navigationli" href="../index.html">Home</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../about.html">Experiences</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../qualities.html">5 Qualitites</a></li>
+				<!--<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Projects </a></li></br> -->
+					<div class="dropdown">
+						<button class="dropbtn">Projects  </button>
+							<div class="dropdown-content">
+								<a href="../projects.html">Projects</a>
+								<a href="../8GradePages/8grade.html">8th Grade</a>
+								<a href="../9GradePages/9grade.html">9th Grade</a>
+								<a href="../10GradePages/10grade.html">10th Grade</a>
+						</div>
+					</div> 
+				<li class="Navigationli"><a class="Navigationli" href="../coding.html">Coding Progression</a></li>
+				<li class="Navigationli"><a class="Navigationli" href="../contact.html">Contact</a></li>
+				<li class="Navigationli"><a class="Navigationli" onclick="hideNavBar()"> Collapse Banner</a></li>
+			</ul>
+			</nav>
+		</header>
+		
+		<div class="Front_Content">
+			
+			<h1> Portfolio | Board Game Project </h1>
+			
+			<div class="center">
+				<img src="PagePhotos/Weapon_Card.gif" style="width:50%" Class="Image1">
+			</div>
+			
+		</div>
+			
+		<div class="Main_Content">
+		
+			<h3> What was the Board Game Project? </h3>
+			
+			<p>
+				The Board Game Project was a Project that we had at the beginning of the year, that required us to create a board game about one of the 13 colonies. Each group was assigned a colony to create a board game about said colony. 
+			</p> </br>
+			
+		</div>
+		
+		<div class="Main_Content">
+		
+			<h3> What challenges did we face during the board game project? </h3>
+			
+			<p>
+				During the Board Game Project, my group faced many challenges. One of these challenges was the 50% recycled materials rule. Our boardgame relied a lot on cards, and since the cards made up 95% of the games materials, we needed to use a lot more recycled materials. We faced this challenge by giving each card a cardboard backing. This required a lot of cutting and glueing, but we wereable to make the requirement. Another challenge we faced during the boardgame project was the color requirement. We had a lot of cards for our game, and it would not be worth printing all those cards in color, so we decided to print ou little characters in color, and als printed a map of New York in color to add more color.
+			</p> </br>
+			
+		</div>
+		
+		<div class="Main_Content">
+		
+			<h3> Reflection </h3>
+			
+			<p>
+				For this project, I did a video reflection, for your viewing pleasure. 
+			</p> </br>
+			
+			<div class="center">
+			
+			<video width="640" height="480" controls>
+				<source src="PageVideos/BGR.mp4" type="video/mp4">
+				Your browser does not support this video. :(
+			</video>
+			
+			</div>
+		</div>
+		
+		<footer>
+			<div class="center"><a class="top" href="#top">Return to Top</a></div>
+			<div class="center"><p>&copy;2019. Antoine Gagne. All Rights Reserved.</p></div>
+			<div class="center"><p><i>Ideas are more powerful than guns. We would not let our enemies have guns, why should we let them have ideas? -Joseph Stalin </i></p></div>
+		</footer>
+		
+		<script>
+			/* hide navbar */
+			
+			function hideNavBar() {
+				var x = document.getElementById("header");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+		
+	</body>
+	
+</html>
