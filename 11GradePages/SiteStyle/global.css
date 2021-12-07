@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+body{
+		
+		color: black;
+		font-family: Verdana, Helvetica, Arial, san-serif;
+		Font-size: 0.9em;
+		padding: 0;
+		Margin: 0;
+		background-color: #40665f;
+}
+
+div.center{
+	Text-align: center;
+	float: center;
+}
+
+/* navigation bar */
+
+ul.Navigationul {
+    list-style-type: none;
+	font-size:14px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #304c47;
+	position: fixed;
+    top: 0px;
+    width: 100%;
+	z-index: 10000000000;
+}
+
+li.Navigationli {
+    float: left;
+	z-index: 10000000000;
+}
+
+li a.Navigationli{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	z-index: 10000000000;
+}
+
+li a:hover.Navigationli {
+    background-color: #546e69;
+	z-index: 10000000000;
+}
+
+/* Header */
+
+.Banner {
+	margin: 70px 40px 40px 40px;
+	padding: 10px;
+	Background-color: white;
+}
+
+/* Content */
+
+.Main_Content {
+	Margin: 40px 40px 40px 40px;
+	padding: 10px;
+	background-color: white;
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+}
+
+.Front_Content {
+	margin: 175px 40px 40px 40px;
+	padding: 10px;
+	Background-color: white;
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+}
+
+/* footer */
+
+footer {
+	padding: 60px;
+	background-color: #304c47;
+	color: white;
+	font-size: 18px;
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+}
+
+/* Slide Show */
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* link styling */
+
+a.top{
+	color: white;
+}
+
+/* Image Styling*/
+
+img.Image1{
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+}
+
+img.Image2{
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+	Float: left;
+}
+
+img.Image3{
+	Border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+	Float: right;
+}
+
+/* heading Styling */
+
+h1{
+	Color: #DDDDDD;
+	text-shadow: -1.5px 0 #304c47, 0 1.5px #304c47, 1.5px 0 #304c47, 0 -1.5px #304c47;
+	Font-Variant: small-caps;
+}
+
+h3{
+	font-style: italic;
+	font-size: 110%;
+}
+
+/* banner */
+
+#banner{
+	text-align: left;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	height: 100px;
+	background-color: #546e69;
+	background-image: url(banner/banner.jpg) ;
+	background-repeat: no-repeat;
+	background-position: top right;
+	border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+	position: fixed; 
+    top: 30px;
+    width: 100%; 
+	z-index:10000000000000000;
+}
+
+/* Return Navbar */
+
+
+ul.Navigationul2 {
+    list-style-type: none;
+	font-size:14px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #304c47;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 10000000000;
+}
+
+li.Navigationli2 {
+    float: left;
+	z-index: 10000000000;
+}
+
+li a.Navigationli2{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	z-index: 10000000000;
+}
+
+li a:hover.Navigationli2 {
+    background-color: #546e69;
+	z-index: 1000000;
+}
+
+#banner2{
+	text-align: left;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	height: 100px;
+	background-color: #546e69;
+	background-image: url(banner/banner.jpg) ;
+	background-repeat: no-repeat;
+	background-position: top right;
+	border-style: solid;
+	Border-color: #304c47;
+	Border-width: 2%;
+	position: absolute; 
+    top: 30px;
+    width: 100%; 
+	z-index:1000000;
+}
+
+/* Table Styling */
+
+table {
+    border-collapse: collapse;
+	Font-size: 120%;
+	width: 95%;
+}
+
+table, th, td {
+    border-bottom: 1px solid #ddd;
+	padding: 15px;
+    text-align: left;
+	height: 50px;
+}
+
+th {
+    background-color: #304c47;
+    color: white;
+}
+
+/* Navbar container */
+nav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 15px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 12px;
+  background-color: inherit;
+  font-family: Verdana, Helvetica, Arial, san-serif; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #546e69;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	color: white;
+  display: none;
+  background-color: #304c47;
+  z-index: 1000000000000000000000000000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+	color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #546e69;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+	color: white;
+}
